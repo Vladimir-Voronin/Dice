@@ -13,7 +13,7 @@ class Dice():
         return dictpart
 
     @staticmethod
-    def game():            
+    def main():            
         
         for i in [6,5,4,3,2,1]:
             iterat = coincidence.get(i)
@@ -57,4 +57,4 @@ dictdicev = map(int, dictdicev)
 
 coincidence = Counter(dictdicev)
 
-Dice.game()
+Dice.main()
