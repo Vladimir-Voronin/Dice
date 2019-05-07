@@ -43,7 +43,6 @@ dice3 = Dice()
 dice4 = Dice()
 dice5 = Dice()
 dice6 = Dice()
-iterat = 1
 for i in [dice1,dice2,dice3,dice4,dice5,dice6]:
     up = i.dictin()
     dictdicev.append(up)
