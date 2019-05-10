@@ -9,7 +9,7 @@ class Dice():
 
     
     def dictin(self):
-        dictpart = (self.fallout)
+        dictpart = self.fallout
         return dictpart
 
     @staticmethod
